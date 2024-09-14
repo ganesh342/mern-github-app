@@ -3,7 +3,6 @@ import { toast } from "react-hot-toast";
 
 export const AuthContext = createContext();
 
-
 export const useAuthContext = () => {
 	return useContext(AuthContext);
 };
