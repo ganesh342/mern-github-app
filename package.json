@@ -6,9 +6,7 @@
 	"scripts": {
 		"dev": "nodemon backend/server.js",
 		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
-		"start": "node backend/server.js",
-		"test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject"
+		"start": "node backend/server.js"
 	},
 	"type": "module",
 	"keywords": [],
