@@ -22,6 +22,7 @@ export const getUserProfileAndRepos = async (req, res) => {
 
 		res.status(200).json({ userProfile, repos });
 	} catch (error) {
+		console.log("could not get data");
 		res.status(500).json({ error: error.message });
 	}
 };

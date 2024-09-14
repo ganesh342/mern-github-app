@@ -6,7 +6,9 @@
 	"scripts": {
 		"dev": "nodemon backend/server.js",
 		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
-		"start": "node backend/server.js"
+		"start": "node backend/server.js",
+		 "test": "react-scripts test",
+         "eject": "react-scripts eject"
 	},
 	"type": "module",
 	"keywords": [],
