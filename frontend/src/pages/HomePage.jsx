@@ -27,7 +27,7 @@ const HomePage = () => {
 
 			return { userProfile, repos };
 		} catch (error) {
-			toast.error(error);
+			toast.error(error.message);
 		} finally {
 			setLoading(false);
 		}
